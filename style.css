@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(200, 220, 224);
+}
+
+.form {
+    width: 400px;
+    padding: 16px;
+    background-color: #fff;
+    font-family: sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1 {
+    background-color: #0eb0ab;
+    padding: 20px;
+    font-weight: 300;
+    margin: -16px -16px 16px -16px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.form input[type="text"],
+.form input[type="url"] {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 4%;
+    font-size: 17px;
+    color: rgb(9, 61, 125);
+}
+
+.form input[type="text"]:focus,
+.form input[type="url"]:focus {
+    box-shadow: 0 0 5px #5868bf;
+    border: 1px solid #5868bf;
+}
+
+#qrcode_container {
+    display: none;
+}
+.qrcode {
+    padding: 16px;
+    margin-bottom: 30px;
+}
+.qrcode img {
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(67, 67, 68, 0.25);
+    padding: 4px;
+}
+
+button {
+    box-sizing: border-box;
+    width: 180px;
+    margin: 0 auto;
+    padding: 3%;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    background-color: #0853b6;
+    color: #fff;
+    cursor: pointer;
+}
